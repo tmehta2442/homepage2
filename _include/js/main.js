@@ -406,16 +406,16 @@ $(document).ready(function(){
 	{
 		test: Modernizr.placeholder,
 		nope: '_include/js/placeholder.js', 
-		complete : function() {
-				if (!Modernizr.placeholder) {
-						Placeholders.init({
-						live: true,
-						hideOnFocus: false,
-						className: "yourClass",
-						textColor: "#999"
-						});    
-				}
-		}
+		// complete : function() {  //debugging for later
+		// 		if (!Modernizr.placeholder) {
+		// 				Placeholders.init({
+		// 				live: true,
+		// 				hideOnFocus: false,
+		// 				className: "yourClass",
+		// 				textColor: "#999"
+		// 				});    
+		// 		}
+		// }
 	}
 	]);
 	

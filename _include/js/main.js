@@ -79,10 +79,10 @@ TJHOME.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : 'include/img/slider-images/pic1.jpg', title : '<div class="slide-content"></div>', thumb : 'include/img/slider-images/fish2.jpg', url : 'include/img/slider-images/fish2.jpg'},
-											{image : 'include/img/slider-images/pic2.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
-											{image : 'include/img/slider-images/pic3.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
-											{image : 'include/img/slider-images/pic4.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''}  
+											{image : 'http://tmehta2442.github.io/homepage2/include/img/slider-images/pic1.jpg', title : '<div class="slide-content"></div>', thumb : 'http://tmehta2442.github.io/homepage2/include/img/slider-images/fish2.jpg', url : 'http://tmehta2442.github.io/homepage2/include/img/slider-images/fish2.jpg'},
+											{image : 'http://tmehta2442.github.io/homepage2/include/img/slider-images/pic2.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
+											{image : 'http://tmehta2442.github.io/homepage2/include/img/slider-images/pic3.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
+											{image : 'http://tmehta2442.github.io/homepage2/include/img/slider-images/pic4.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''}  
 									],
 									
 		// Theme Options			   
@@ -197,7 +197,7 @@ TJHOME.contactForm = function(){
 		
 		$.ajax({
 			type: "POST",
-			url: "include/php/contact.php",
+			url: "http://tmehta2442.github.io/homepage2/include/php/contact.php",
 			data: fields,
 			dataType: 'json',
 			success: function(response) {
@@ -224,7 +224,7 @@ TJHOME.tweetFeed = function(){
 	var valueTop = -64; // Margin Top Value
 	
     $("#ticker").tweet({
-          modpath: 'include/js/twitter/',
+          modpath: 'http://tmehta2442.github.io/homepage2/include/js/twitter/',
           username: "Bluxart", // Change this with YOUR ID
           page: 1,
           avatar_size: 0,
@@ -407,7 +407,7 @@ $(document).ready(function(){
 	Modernizr.load([
 	{
 		test: Modernizr.placeholder,
-		nope: 'include/js/placeholder.js', 
+		nope: 'http://tmehta2442.github.io/homepage2/include/js/placeholder.js', 
 		// complete : function() {  //debugging for later
 		// 		if (!Modernizr.placeholder) {
 		// 				Placeholders.init({

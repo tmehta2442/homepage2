@@ -1,5 +1,7 @@
 jQuery(function($){
-
+$( "#contact-submit" ).click(function() {
+  alert( "This feature is currently down, please email me at \ntj@tejas-mehta.com" );
+});
 var TJHOME = window.TJHOME || {};
 
 /* ==================================================

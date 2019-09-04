@@ -253,15 +253,15 @@ TJHOME.tweetFeed = function(){
 ================================================== */
 
 TJHOME.menu = function(){
-	$('#menu-nav, #menu-nav-mobile').onePageNav({
-		currentClass: 'current',
-    	changeHash: false,
-    	scrollSpeed: 750,
-    	scrollOffset: 30,
-    	scrollThreshold: 0.5,
-		easing: 'easeOutExpo',
-		filter: ':not(.external)'
-	});
+	// $('#menu-nav-mobile').onePageNav({
+		// currentClass: 'current',
+    	// changeHash: false,
+    	// scrollSpeed: 750,
+    	// scrollOffset: 30,
+    	// scrollThreshold: 0.5,
+		// easing: 'easeOutExpo',
+		// filter: ':not(.external)'
+	// });
 }
 
 /* ==================================================
